@@ -1,6 +1,8 @@
 rg = {
   rg1 = { name = "ashish-rg", location = "japaneast" }
   rg2 = { name = "ash-rg", location = "japaneast" }
+    rg3 = { name = "ashish-rg1", location = "japaneast" }
+
 }
 vnet = {
   vnet1 = { name = "ashish-vnet", location = "japaneast", res = "ashish-rg", address_space = ["10.10.0.0/16"] }
