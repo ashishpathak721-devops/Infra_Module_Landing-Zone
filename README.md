@@ -1,2 +1,9 @@
 # Infra_Module_Landing-Zone
-Azure infrastructre (VM) has been created with the module &amp; data blocks 
+
+# Production-ready Azure Landing Zone built using Terraform modules with separate Dev/UAT/Prod environments, reusable child modules, and security scanning.
+# terraform
+# azure
+# landing-zone
+# devops
+# cloud
+# infrastructure-as-code
