@@ -1,0 +1,25 @@
+[
+ {
+  "RuleID": "hardcoded-password",
+  "Description": "Detect hardcoded password in Terraform",
+  "StartLine": 30,
+  "EndLine": 30,
+  "StartColumn": 126,
+  "EndColumn": 167,
+  "Match": "password = \"Test@12345678\" ,nicid = \"nic1\"",
+  "Secret": "password = \"Test@12345678\" ,nicid = \"nic1\"",
+  "File": "enviroment/uat/terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 4.4609027,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password"
+  ],
+  "Fingerprint": "enviroment/uat/terraform.tfvars:hardcoded-password:30"
+ }
+]
